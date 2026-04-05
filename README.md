@@ -80,3 +80,6 @@ You will primarily work in:
 - Python 3.9+
 - A Gemini API key for LLM features (only needed for modes 1 and 3)
 - No database, no server setup, no external services besides LLM calls
+
+TF Response:
+The core concepts students need to understand from this Tinker is the differences between a Naive LLM mode, Retrieval, and RAG mode. I found this Tinker to be especially helpful in making a connection between all these buzzwords and getting your hands dirty for yourself. I believe students will struggle most with the fine tuning of the guard rail, at least that's where I ran into the most trouble. Asking a question like “What is the weather in Houston?” had my guard rail response, but something slightly similar like “What is the weather like in Houston?” caused my program to answer something related to Postman. As always, another point of trouble will probably be the installation of packages, but a simple py -m prepended to the command fixed my issues. I found AI to be helpful in all phases of the Tinker. A way I would guide the student without giving them the answer is to step back and understand what’s going on with the 3 functions that make up this Tinker. What is it asking of you? How does this affect the grand scheme of things? Can you walk through what it is trying to do? If not, Copilot can be a great help in walking through how the code works.
